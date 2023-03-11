@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-image: url(../public/background-img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+/**Colors*/
+:root {
+    --lightGreen: #EBFFEE;
+    --mantisGreen: #5FBF6A;
+    --sproutGreen: #3B9545;
+    --polyGreen: #1D4923;
+    --chocolateBrown: #844D0B;
+    --seedBrown: #603808;
+    --darkBrown: #392105;
+    --vegeOrange: #FF8800;
+    --fruitBlue: #4F86F7;
+}
+
+/**contains everything in the body*/
+.main {
+    padding: 3rem;
+}
+
+/**First div that holds the entire navBar*/
+.navBar_container {
+    width: 100%;
+    background: var(--mantisGreen);
+    opacity: 0.9;
+    gap: 1rem;
+    margin: 0;
+    border-radius: 3rem;
+    display: flex;
+}
+
+/**container than holds the logo in the navBar*/
+.navBar_logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGreen);
+    border-radius: 3rem;
+    padding: 0.5rem;
+    width: 8%;
+}
+
+/**Container that holds all the links in the navBar*/
+.navBar_links_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+/**links in the navBar*/
+.navBar_links {
+    font-family: 'philosopher', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+/**header*/
+.home_content_headerone{
+    font-family:  'Jost', sans-serif;
+    font-size: 64px;
+    
+}
+
+.home_content_headertwo{
+    font-family:  'Jost', sans-serif;
+   text-align: center;
+   margin-top: -40px;
+   font-size: 32px;
+   
+}
+
+.home_content_header{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_arrow_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 10%;
+}
+
+.typo_philo_header{
+    font-size: 40px;
+}
+
+.typo_philosopher_letters{
+    font-family: 'philosopher', sans-serif;
+}
+
+.typo_philosopher_reg{
+    font-family: 'philosopher', sans-serif;
+}
+
+.typo_philosopher_bold{
+    font-family: 'philosopher', sans-serif;
+    font-weight: bold;
+}
+
+.type_philosopher_fontstyle{
+    display: flex;
+    gap: 20px;
+    font-size: 46px;
+}
+
+.typo_philo_typeface{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.typo_philo_body{
+    font-size: ;
+}
+
