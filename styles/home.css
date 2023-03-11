@@ -32,11 +32,10 @@ body {
     width: 100%;
     background: var(--mantisGreen);
     opacity: 0.9;
-    padding: 0;
+    gap: 1rem;
     margin: 0;
     border-radius: 3rem;
     display: flex;
-    height: 6vh;
 }
 
 /**container than holds the logo in the navBar*/
@@ -55,7 +54,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 /**links in the navBar*/
