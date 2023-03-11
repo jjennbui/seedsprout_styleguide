@@ -1,0 +1,146 @@
+
+
+/** color-palette style*/
+
+.color-forestgreen{
+    height: 200px;
+    width: 200px;
+    background-color: #3B9545;
+
+}
+.color-mantisgreen{
+    height: 200px;
+    width: 200px;
+    background-color:#5FBF6A;
+}
+.color-calpolygreen{
+    height: 200px;
+    width: 200px;
+    background-color:#1D4923;
+}
+.color-darkorange{
+    height: 200px;
+    width: 200px;
+    background-color:#FF8800;
+}
+.color-chocolate-brown{
+    height: 200px;
+    width: 200px;
+    background-color:#844D0B; 
+}
+.color-sepia-brown{
+    height: 200px;
+    width: 200px;
+    background-color:#603808; 
+}
+.color-bistre-brown{
+    height: 200px;
+    width: 200px;
+    background-color:#392105; 
+}
+.color-azure-blue{
+    height: 200px;
+    width: 200px;
+    background-color:#4F86F7; 
+}
+.colors-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100vh;
+}
+.left-color-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10vh;
+}
+.right-color-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10vh;  
+}
+
+.color_text_h1 {
+    margin-top: 10vh;
+    font-size: 5rem;
+    margin: 10vh;
+}
+.forest-box-size{
+    height: 250px;
+    width: 200px;
+    
+    outline: #3B9545 solid 1px;
+}
+.mantis-box-size{
+    height: 250px;
+    width: 200px;
+    
+    outline: #5FBF6A solid 1px;  
+}
+.calpoly-box-size{
+    height: 250px;
+    width: 200px;
+    
+    outline: #1D4923 solid 1px;  
+}
+.orange-box-size{
+    height: 250px;
+    width: 200px;
+    
+    outline: #FF8800 solid 1px;  
+}
+.choco-box-size{
+    height: 250px;
+    width: 200px;
+    outline: #844D0B solid 1px;   
+}
+.sepia-box-size{
+    height: 250px;
+    width: 200px;
+    outline: #603808 solid 1px;   
+}
+.bistre-box-size{
+    height: 250px;
+    width: 200px;
+    outline: #392105 solid 1px;   
+}
+.azure-box-size{
+    height: 250px;
+    width: 200px;
+    outline: #4F86F7 solid 1px;   
+}
+h6{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    margin-left: 4vw;
+}
+
+
+
+
+
+/**Need to add breaking points for responsiveness*/
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  
+    .colors-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-top: 150vh;
+        gap: 10vh;
+        margin-left: 20vw;
+    }
+  
+    
+    h6{
+        display: flex;
+        flex-direction: column;
+        margin: 14px;
+        margin-left: 15vw;
+    }
+  }
