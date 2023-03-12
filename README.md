@@ -4,3 +4,10 @@ This is a Web Style Guide for Seed Snap, an app where you can learn how, when, a
 # Languages used:
 - Html
 - Css
+
+# Pages
+- Home
+- Logo
+- Typography
+- Color Palette
+- Icons and Graphics
