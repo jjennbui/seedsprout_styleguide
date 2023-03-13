@@ -15,8 +15,6 @@ body {
     padding: 5rem;
 }
 
-
-
 /**Colors*/
 :root {
     --lightGreen: #EBFFEE;
@@ -123,8 +121,8 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 50vh;
 }
+
 .left-color-container{
     display: flex;
     flex-direction: column;
