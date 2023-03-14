@@ -75,9 +75,10 @@ body {
     flex-wrap: wrap;
 }
 
-.text_container{
+.text_container {
     display: flex;
 }
+
 /**contains text*/
 .text_content {
     display: flex;
@@ -109,17 +110,18 @@ body {
     margin: 0;
 }
 
-.body_content_logo_container{
+.body_content_logo_container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
+
 /**home page logo in body content*/
 .body_content_logo {
     width: 22rem;
 }
 
-.logo_shadow{
+.logo_shadow {
     background-color: black;
     height: 1rem;
     border-radius: 100%;
@@ -127,4 +129,3 @@ body {
 }
 
 /**Need to add breaking points for responsiveness*/
-

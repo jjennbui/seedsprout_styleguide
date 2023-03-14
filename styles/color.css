@@ -10,6 +10,7 @@ body {
     padding: 1rem;
     margin: 0;
 }
+
 /**contains everything in the body*/
 .main {
     padding: 5rem;
@@ -71,256 +72,293 @@ body {
 }
 
 /** color-palette style*/
-hr{
+hr {
     width: 60vw;
     margin-top: 5vh;
 }
 
-.color-forestgreen{
+.color-forestgreen {
     height: 200px;
     width: 200px;
     background-color: #3B9545;
 
 }
-.color-mantisgreen{
+
+.color-mantisgreen {
     height: 200px;
     width: 200px;
-    background-color:#5FBF6A;
+    background-color: #5FBF6A;
 }
-.color-calpolygreen{
+
+.color-calpolygreen {
     height: 200px;
     width: 200px;
-    background-color:#1D4923;
+    background-color: #1D4923;
 }
-.color-darkorange{
+
+.color-darkorange {
     height: 200px;
     width: 200px;
-    background-color:#FF8800;
+    background-color: #FF8800;
 }
-.color-chocolate-brown{
+
+.color-chocolate-brown {
     height: 200px;
     width: 200px;
-    background-color:#844D0B; 
+    background-color: #844D0B;
 }
-.color-sepia-brown{
+
+.color-sepia-brown {
     height: 200px;
     width: 200px;
-    background-color:#603808; 
+    background-color: #603808;
 }
-.color-bistre-brown{
+
+.color-bistre-brown {
     height: 200px;
     width: 200px;
-    background-color:#392105; 
+    background-color: #392105;
 }
-.color-azure-blue{
+
+.color-azure-blue {
     height: 200px;
     width: 200px;
-    background-color:#4F86F7; 
+    background-color: #4F86F7;
 }
-.color-mantris-light-blue{
+
+.color-mantris-light-blue {
     height: 200px;
     width: 200px;
-    background-color:#EBFFEE;  
+    background-color: #EBFFEE;
 }
 
 
-.colors-container{
+.colors-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
-.left-color-container{
+.left-color-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10vh;
 }
-.right-color-container{
+
+.right-color-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10vh;  
+    gap: 10vh;
 }
 
 .color_text_h1 {
     font-family: 'Jost', sans-serif;
     font-size: 64px;
-    
 
-   
+
+
     font-size: 5rem;
     margin: 3vh;
 }
-.forest-box-size{
+
+.forest-box-size {
     height: 250px;
     width: 200px;
-    
+
     outline: #3B9545 solid 1px;
 }
-.mantis-box-size{
+
+.mantis-box-size {
     height: 250px;
     width: 200px;
-    
-    outline: #5FBF6A solid 1px;  
-   
+
+    outline: #5FBF6A solid 1px;
+
 }
-.mantis-light-box-size{
+
+.mantis-light-box-size {
     height: 250px;
     width: 200px;
-    
-    outline: #3B9545 solid 1px;  
-      
+
+    outline: #3B9545 solid 1px;
+
 }
-.calpoly-box-size{
+
+.calpoly-box-size {
     height: 250px;
     width: 200px;
-    
-    outline: #1D4923 solid 1px;  
+
+    outline: #1D4923 solid 1px;
 }
-.orange-box-size{
+
+.orange-box-size {
     height: 250px;
     width: 200px;
-    
-    outline: #FF8800 solid 1px;  
+
+    outline: #FF8800 solid 1px;
 }
-.choco-box-size{
+
+.choco-box-size {
     height: 250px;
     width: 200px;
-    outline: #844D0B solid 1px;   
+    outline: #844D0B solid 1px;
 }
-.sepia-box-size{
+
+.sepia-box-size {
     height: 250px;
     width: 200px;
-    outline: #603808 solid 1px;   
+    outline: #603808 solid 1px;
 }
-.bistre-box-size{
+
+.bistre-box-size {
     height: 250px;
     width: 200px;
-    outline: #392105 solid 1px;   
+    outline: #392105 solid 1px;
 }
-.azure-box-size{
+
+.azure-box-size {
     height: 250px;
     width: 200px;
-    outline: #4F86F7 solid 1px;   
+    outline: #4F86F7 solid 1px;
 }
-h6{
+
+h6 {
     display: flex;
     flex-direction: column;
     margin: 2px;
     margin-left: 4vw;
 }
-.dot{
+
+.dot {
     height: 45px;
     width: 45px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }
-.color_info{
+
+.color_info {
     display: flex;
     flex-direction: row;
     gap: 100px;
 
 }
-.color_info_dot{
+
+.color_info_dot {
     width: 200px;
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.color_description{
+
+.color_description {
     width: 60vw;
 
 }
-.description_main_box{
+
+.description_main_box {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.normal-1{
+
+.normal-1 {
     width: 195px;
     height: 61px;
-    background-color:#5FBF6A;
+    background-color: #5FBF6A;
     border-radius: 15px;
     opacity: 0.85;
 }
-.normal-2{
+
+.normal-2 {
     width: 195px;
     height: 61px;
-    background-color:#4F86F7;
+    background-color: #4F86F7;
     border-radius: 15px;
     opacity: 0.80;
 }
-.normal-3{
+
+.normal-3 {
     width: 195px;
     height: 61px;
-    background-color:#FF8800;
+    background-color: #FF8800;
     border-radius: 15px;
     opacity: 0.80;
 }
-.normal-4{
+
+.normal-4 {
     width: 195px;
     height: 61px;
-    background-color:#603808;
+    background-color: #603808;
     border-radius: 15px;
     opacity: 0.80;
 }
-.normal-5{
+
+.normal-5 {
     width: 195px;
     height: 61px;
-    background-color:#5FBF6A;
+    background-color: #5FBF6A;
     border-radius: 15px;
-   
+
 }
-.normal-6{
+
+.normal-6 {
     width: 195px;
     height: 61px;
-    background-color:#4F86F7;
+    background-color: #4F86F7;
     border-radius: 15px;
-    
+
 }
-.normal-7{
+
+.normal-7 {
     width: 195px;
     height: 61px;
-    background-color:#FF8800;
+    background-color: #FF8800;
     border-radius: 15px;
-    
+
 }
-.normal-8{
+
+.normal-8 {
     width: 195px;
     height: 61px;
-    background-color:#603808;
+    background-color: #603808;
     border-radius: 15px;
-  
+
 }
-.normal-9{
+
+.normal-9 {
     width: 195px;
     height: 61px;
-    background-color:#1D4923;
+    background-color: #1D4923;
     border-radius: 15px;
-  
-}.normal-10{
+
+}
+
+.normal-10 {
     width: 195px;
     height: 61px;
-    background-color:#392105;
+    background-color: #392105;
     border-radius: 15px;
 
 }
 
 
-.button-list{
+.button-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.normal{
+
+.normal {
     display: flex;
     flex-direction: column;
-    
+
 }
-.button-left-list{
+
+.button-left-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,46 +373,51 @@ h6{
     background-color: #F9F9F9;
 
 }
-.button-middle-list{
+
+.button-middle-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px; 
+    gap: 50px;
     border: 1px solid gray;
     width: 235px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     border-radius: 10px;
     background-color: #F9F9F9;
 }
-.button-right-list{
+
+.button-right-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px; 
+    gap: 50px;
     border: 1px solid rgb(149, 145, 145);
     width: 235px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 50px; 
-    border-radius: 10px; 
+    padding-bottom: 50px;
+    border-radius: 10px;
     background-color: #F9F9F9;
 }
-.name-button{
+
+.name-button {
     color: white;
     margin-left: 60px;
 }
-.veg-fruits-box{
+
+.veg-fruits-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 60px;
 
 }
-.veg-color{
+
+.veg-color {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -393,51 +436,55 @@ h6{
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-  
-    .colors-container{
+
+    .colors-container {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         margin-top: 10vh;
         gap: 10vh;
-        
+
     }
-  
-    
-    h6{
+
+
+    h6 {
         display: flex;
         flex-direction: column;
         margin: 14px;
         margin-left: 15vw;
     }
 
-    .navBar_links_container{
+    .navBar_links_container {
         display: flex;
         flex-direction: column;
     }
-    .text_color_palette{
+
+    .text_color_palette {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .color_info{
+
+    .color_info {
         display: flex;
         flex-direction: column;
         gap: 25px;
-    
+
     }
-    .button-list{
+
+    .button-list {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         gap: 30px;
 
     }
-    .veg-color{
+
+    .veg-color {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 150px;
-    
+
     }
-  }
+}
