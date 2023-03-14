@@ -244,60 +244,69 @@ h6{
     height: 61px;
     background-color:#5FBF6A;
     border-radius: 15px;
-
+    opacity: 0.85;
 }
 .normal-2{
     width: 195px;
     height: 61px;
     background-color:#4F86F7;
     border-radius: 15px;
+    opacity: 0.80;
 }
 .normal-3{
     width: 195px;
     height: 61px;
     background-color:#FF8800;
     border-radius: 15px;
+    opacity: 0.80;
 }
 .normal-4{
     width: 195px;
     height: 61px;
     background-color:#603808;
     border-radius: 15px;
+    opacity: 0.80;
 }
 .normal-5{
     width: 195px;
     height: 61px;
     background-color:#5FBF6A;
     border-radius: 15px;
+   
 }
 .normal-6{
     width: 195px;
     height: 61px;
     background-color:#4F86F7;
     border-radius: 15px;
+    
 }
 .normal-7{
     width: 195px;
     height: 61px;
     background-color:#FF8800;
     border-radius: 15px;
+    
 }
 .normal-8{
     width: 195px;
     height: 61px;
     background-color:#603808;
     border-radius: 15px;
+  
 }
 .normal-9{
     width: 195px;
     height: 61px;
     background-color:#1D4923;
     border-radius: 15px;
+  
 }.normal-10{
     width: 195px;
     height: 61px;
     background-color:#392105;
     border-radius: 15px;
+
 }
 
 
